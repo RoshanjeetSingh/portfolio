@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.home-containor{
+display: flex;
+flex-direction: row-reverse;
+margin: 10vh 5vw;
+text-align: end;
+}
+.intro{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.555);
+    font-style: italic;
+
+}
+.author{
+font-weight: 900;
+color: hsla(0, 20%, 71%, 0.925);
+}
+.home-containor2{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 5vw;
+    height: 20%;
+    text-align: end;
+    color: hsla(29, 90%, 28%, 0.945);
+    font-size: larger;
+    text-transform: capitalize;
+    font-style: oblique;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.social-handles{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1em;
+}
+
+
+#insta-png,#github-png{
+    margin-top: 2vh;
+    background-color: hsla(0, 0%, 47%, 0.329);
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+}
+
+#insta-png{
+    height: 50px;
+    width:  50px;
+}
